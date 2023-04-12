@@ -342,28 +342,43 @@ body .our-jobs{
 
 /*********** INDEX *************************************************************************/
 h1{
-    font-size: 90px;
+    font-size: 100px;
 }
 
 .laimagen-de{
     margin: 0px 150px;
+    font-size: 18px;
+
 }
 
+.tusitio-web{
+    font-size: 24px;
+    padding-top: 0rem;
+}
+
+.solicita-presu{
+    font-size: 20px;
+}
 /* ***************SOBRE NOSOTROS*************************************************************************** */
 
 .nos-impli{
   display: block;
   margin: 0px 150px;
+  font-size: 18px;
 }
 
 .sobre-nos{
     margin: 0px 150px;
+    font-size: 18px;
 }
 
 .dibu{
     padding-bottom: 6.5rem;
 }
 
+.about-us h2{
+    font-size: 22px;
+}
 
 /* Servicios***************************************************************************** */
 
