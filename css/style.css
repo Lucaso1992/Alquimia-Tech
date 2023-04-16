@@ -301,11 +301,15 @@ footer {
     font-size: 100px;
   }
   .tusitio-web {
-    font-size: 24px;
+    font-size: 26px;
     padding-top: 0rem;
   }
   .solicita-presu {
+    font-size: 23px;
+  }
+  .laimagen-de {
     font-size: 20px;
+    margin: 0 200px;
   }
   .main-sobrenos {
     height: 780px;
