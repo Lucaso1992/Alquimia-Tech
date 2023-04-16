@@ -1,0 +1,86 @@
+@media(min-width:1024px) {
+
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        nav{
+            width: 100%;
+            display: flex;
+            flex-wrap: nowrap;
+
+        label {
+
+            .rayas {
+                display: none;
+            }
+        }
+        .menu{
+            overflow: visible;
+            display: flex;
+            justify-content: flex-end;
+
+            ul{
+                display: flex;
+                flex-direction: row;
+            }
+        }
+        }
+    }
+
+
+
+.logo-at{
+    margin-left: 4%;
+    margin-right: 2%;
+}
+
+.navbar{
+  gap: 4rem;
+  margin-right: 3%;
+  margin-top: 0.1;
+}
+
+
+// Index ***************//
+
+h1{
+    font-size: 100px;
+}
+
+.tusitio-web{
+    font-size: 24px;
+    padding-top: 0rem;
+}
+
+.solicita-presu{
+    font-size: 20px;
+}
+
+// Sobre Nosotros**********/////
+
+.main-sobrenos{
+    height: 780px;
+}
+.nos-impli{
+    display: block;
+    margin: 0px 150px;
+    font-size: 18px;
+  }
+  
+  .sobre-nos{
+      margin: 0px 10px;
+      font-size: 18px;
+  }
+  
+  .dibu{
+      padding-bottom: 6.5rem;
+  }
+  
+  .about-us h2{
+      font-size: 22px;
+  }
+
+  
+}

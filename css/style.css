@@ -1,3 +1,330 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+header {
+  background-color: #6B728E;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header nav {
+  margin: 10px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+header nav #toggle {
+  display: none;
+}
+header nav #toggle:checked ~ .menu {
+  height: 100%;
+}
+header nav label {
+  display: inline-flex;
+  color: white;
+  cursor: pointer;
+}
+header nav label img {
+  width: 40px;
+  height: 55px;
+  padding-top: 1rem;
+}
+header nav .menu {
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+}
+header nav .menu ul {
+  flex-direction: column;
+  padding: 0.5rem 0;
+}
+
+.navbar {
+  list-style: none;
+}
+.navbar li {
+  padding: 10px;
+}
+.navbar li a {
+  color: #F5E9CF;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+main {
+  width: 100%;
+  background-image: url(../assets/img/mundo-tech.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 747px;
+}
+
+h1 {
+  color: white;
+  font-size: 60px;
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.tusitio-web {
+  color: #A59C9C;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.tusitio-web {
+  color: #A59C9C;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+.laimagen-de {
+  color: white;
+  font-size: 16px;
+  font-family: "Noto Sans", sans-serif;
+  text-align: center;
+  padding-top: 4rem;
+  margin: 0px 10px;
+}
+
+.solicita-presu {
+  color: white;
+  font-size: 17px;
+  font-family: "Noto Sans", sans-serif;
+  text-align: center;
+  padding-top: 4rem;
+  margin: 0px 10px;
+}
+
+.emojis {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+}
+
+h2 {
+  color: white;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 4rem;
+}
+
+p {
+  color: white;
+  font-size: 16px;
+  font-family: "Noto Sans", sans-serif;
+  text-align: center;
+  padding-top: 5rem;
+  margin: 0px 30px;
+}
+
+.nos-impli {
+  color: white;
+  font-size: 16px;
+  font-family: "Noto Sans", sans-serif;
+  text-align: center;
+  padding-top: 5.5rem;
+  margin: 0px 10px;
+  display: none;
+}
+
+.sunset {
+  height: 220px;
+  width: 180px;
+}
+
+.about-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-servicios {
+  height: 1000px;
+}
+
+.bullets {
+  font-size: 20px;
+  padding: 1.5rem 0rem;
+}
+
+.point {
+  padding: 0px;
+}
+
+.father {
+  padding-top: 5.5rem;
+}
+
+.dibu {
+  padding-bottom: 2rem;
+}
+
+.our-jobs {
+  height: 1450px;
+}
+
+.papa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nostrab {
+  padding-bottom: 1rem;
+}
+
+.papa img {
+  padding: 4rem 0rem 0rem 0rem;
+}
+
+#exampleInputEmail1 {
+  width: 260px;
+}
+
+.yes {
+  color: white;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 1.5rem;
+}
+
+.form-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#emailHelp {
+  color: lightgray;
+  font-size: 16px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.form-check-label {
+  color: white;
+  font-size: 16px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+footer {
+  background-color: #6B728E;
+  height: 88.33px;
+}
+
+.seguinos-red {
+  color: white;
+  font-size: 16px;
+  font-family: "Noto Sans", sans-serif;
+  text-align: center;
+  padding-top: 1.3rem;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  padding-top: 0.4rem;
+  gap: 5px;
+}
+
+.logo-face {
+  padding-top: 4px;
+}
+
+.footer-contacto {
+  height: 100px;
+}
+
+@media (min-width: 768px) {
+  .laimagen-de {
+    margin: 0px 100px;
+  }
+  /* SOBRE NOSOTROS**********/
+  .sobre-nos {
+    margin: 0px 100px;
+  }
+  /* Servicios************ */
+  .father {
+    margin: 0px 10rem;
+    padding-top: 10rem;
+  }
+  .dibu {
+    padding-bottom: 4rem;
+  }
+}
+@media (min-width: 1024px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  header nav {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  header nav label .rayas {
+    display: none;
+  }
+  header nav .menu {
+    overflow: visible;
+    display: flex;
+    justify-content: flex-end;
+  }
+  header nav .menu ul {
+    display: flex;
+    flex-direction: row;
+  }
+  .logo-at {
+    margin-left: 4%;
+    margin-right: 2%;
+  }
+  .navbar {
+    gap: 4rem;
+    margin-right: 3%;
+    margin-top: 0.1;
+  }
+  h1 {
+    font-size: 100px;
+  }
+  .tusitio-web {
+    font-size: 24px;
+    padding-top: 0rem;
+  }
+  .solicita-presu {
+    font-size: 20px;
+  }
+  .main-sobrenos {
+    height: 780px;
+  }
+  .nos-impli {
+    display: block;
+    margin: 0px 150px;
+    font-size: 18px;
+  }
+  .sobre-nos {
+    margin: 0px 10px;
+    font-size: 18px;
+  }
+  .dibu {
+    padding-bottom: 6.5rem;
+  }
+  .about-us h2 {
+    font-size: 22px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
