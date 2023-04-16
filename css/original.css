@@ -1,0 +1,406 @@
+* {
+    margin: 0;
+    padding: 0 box-sizing: border-box;
+}
+
+
+html {
+    font-size: 62.5%;
+
+}
+
+body{
+    
+}
+
+/*********** GENERAL  :  header y main  ******************************************************************************************************************* */
+header {
+    background-color: #6B728E;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar {
+    list-style: none;
+
+}
+
+.navbar li {
+    padding: 10px;
+}
+
+.navbar li a {
+    color: #F5E9CF;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+nav {
+    margin: 10px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+main {
+    width: 100%;
+    background-image: url(../assets/img/mundo-tech.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 747px;
+}
+
+label img {
+    width: 36px;
+    height: 24px;
+    padding-top: 2.2rem;
+}
+
+/*  ***INDEX******************************************************************************************************************** */
+h1 {
+    color: white;
+    font-size: 60px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    padding-top: 2rem
+}
+
+.tusitio-web {
+    color: #A59C9C;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.laimagen-de {
+    color: white;
+    font-size: 16px;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    padding-top: 6rem;
+    margin: 0px 10px;
+}
+
+.solicita-presu {
+    color: white;
+    font-size: 17px;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    padding-top: 6rem;
+    margin: 0px 10px;
+}
+
+
+.emojis {
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
+
+/* ***************      SOBRE NOSOTROS   ******************************************************************** */
+
+
+h2 {
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 4rem;
+}
+
+
+
+p {
+    color: white;
+    font-size: 16px;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    padding-top: 5rem;
+    margin: 0px 30px;
+    
+
+}
+
+.nos-impli{
+   
+    color: white;
+    font-size: 16px;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    padding-top: 5.5rem;
+    margin: 0px 10px;
+    display: none;
+    
+}
+
+.sunset {
+    height: 220px;
+    width: 180px;
+  
+
+
+}
+
+.about-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Servicios******************************************************************** */
+
+.bullets{
+    font-size: 20px;
+    padding: 1.5rem 0rem;
+}
+
+.point{
+    padding: 0px;
+}
+
+.father{    
+padding-top: 5.5rem;
+}
+
+.dibu{
+    padding-bottom: 2rem;
+}
+
+/* *******FOOTER GENERAL**** **************************************************************/
+
+footer {
+    background-color: #6B728E;
+    height: 88.33px;
+}
+
+.seguinos-red {
+    color: white;
+    font-size: 16px;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    padding-top: 1.3rem;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    padding-top: 0.4rem;
+    gap: 5px;
+}
+
+.logo-face {
+    padding-top: 4px;
+}
+
+
+/************************HAMBURGUESA GENERAL********************************************************* */
+
+nav .menu {
+
+    width: 100%;
+
+    height: 0;
+
+    overflow: hidden;
+
+}
+
+.menu ul {
+
+    flex-direction: column;
+
+    padding: 0.5rem 0;
+
+}
+
+nav label {
+
+    display: inline-flex;
+
+    color: white;
+
+    cursor: pointer;
+
+}
+
+nav #toggle:checked~.menu {
+
+    height: 100%;
+
+}
+
+#toggle {
+    display: none;
+}
+
+/* NUESTROS TRABAJOS**************************************************************************** */
+
+body .our-jobs{
+    height: 1300px;
+}
+
+.papa{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.nostrab{
+    padding-bottom: 1rem;
+}
+
+.papa img{
+    padding: 4rem 0rem 0rem 0rem;
+}
+
+/* Breakpoint 768px ********************************************************************************************************************************* */
+@media(min-width:768px) {
+
+    .laimagen-de{
+        margin: 0px 100px;
+
+
+}
+
+
+
+
+
+/* INDEX************************************************************ */
+
+
+/* SOBRE NOSOTROS*************************************************************************** */
+
+.sobre-nos{
+    margin: 0px 100px;
+}
+
+
+/* Servicios******************************************************************** */
+.father{
+    margin: 0px 10rem;
+    padding-top: 10rem;
+}
+
+.dibu{
+    padding-bottom: 4rem;
+}
+
+
+
+}
+/* Breakpoint 1024px ********************************************************************************************************************************* */
+@media(min-width:1024px) {
+    header {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    nav label {
+        display: none;
+    }
+
+    nav .menu {
+
+        overflow: visible;
+    }
+
+    .menu ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    nav {
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .logo-at {
+        margin-left: 4%;
+        margin-right: 2%;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .navbar {
+        gap: 8rem;
+        margin-right: 3%;
+        margin-top: 0.75rem;
+    }
+
+
+/*********** INDEX *************************************************************************/
+h1{
+    font-size: 100px;
+}
+
+.laimagen-de{
+    margin: 0px 150px;
+    font-size: 18px;
+
+}
+
+.tusitio-web{
+    font-size: 24px;
+    padding-top: 0rem;
+}
+
+.solicita-presu{
+    font-size: 20px;
+}
+/* ***************SOBRE NOSOTROS*************************************************************************** */
+
+.nos-impli{
+  display: block;
+  margin: 0px 150px;
+  font-size: 18px;
+}
+
+.sobre-nos{
+    margin: 0px 150px;
+    font-size: 18px;
+}
+
+.dibu{
+    padding-bottom: 6.5rem;
+}
+
+.about-us h2{
+    font-size: 22px;
+}
+
+/* Servicios***************************************************************************** */
+
+
+
+
+/* Nuestros Trabajos****************************************************************** */
+
+
+body .our-jobs{
+    height: 747px;
+}
+
+.papa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nostrab{
+    font-size: 22px;
+    padding-bottom: 3rem;
+    padding-top: 5rem;
+}
+}
