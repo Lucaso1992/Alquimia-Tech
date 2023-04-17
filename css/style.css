@@ -155,10 +155,6 @@ p {
   align-items: center;
 }
 
-.main-servicios {
-  height: 1000px;
-}
-
 .bullets {
   font-size: 20px;
   padding: 1.5rem 0rem;
@@ -176,7 +172,7 @@ p {
   padding-bottom: 2rem;
 }
 
-.our-jobs {
+.main-works {
   height: 1600px;
 }
 
