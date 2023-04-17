@@ -7,8 +7,6 @@ main {
     height: 100vh;
 }
 
-
-
 h1 {
     color: white;
     font-size: 60px;
@@ -179,4 +177,28 @@ p {
     color: white;
     font-size: 16px;
     font-family: 'Noto Sans', sans-serif;
+}
+
+
+Transformaciones****////
+
+.sombra{
+    background-color: gray;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    padding-top: 3rem;
+ 
+
+}
+
+.circulo{
+   
+    background: radial-gradient(white,black);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 6rem;
+    margin-top: 8rem;
+  
 }

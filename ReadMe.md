@@ -10,6 +10,7 @@ El trabajo consiste en la gestión de un sitio web para una empresa ficticia de 
 - Flex
 - Bootstrap
 - Preprocesador: SASS
+- Transformaciones
 
 ## Git Hub 
 Page - https://lucaso1992.github.io/Alquimia-Tech/

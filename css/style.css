@@ -222,6 +222,23 @@ p {
   font-family: "Noto Sans", sans-serif;
 }
 
+Transformaciones**** .sombra {
+  background-color: gray;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  padding-top: 3rem;
+}
+
+.circulo {
+  background: radial-gradient(white, black);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: 6rem;
+  margin-top: 8rem;
+}
+
 footer {
   background-color: #6B728E;
   height: 88.33px;
