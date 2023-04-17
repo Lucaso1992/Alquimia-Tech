@@ -1,5 +1,3 @@
-
-
 // HOME ************//
 main {
     width: 100%;
@@ -11,7 +9,7 @@ main {
 
 
 
-h1{
+h1 {
     color: white;
     font-size: 60px;
     font-family: 'Bebas Neue', cursive;
@@ -75,20 +73,20 @@ p {
     text-align: center;
     padding-top: 5rem;
     margin: 0px 30px;
-    
+
 
 }
 
-.nos-impli{
-   
+.nos-impli {
+
     color: white;
     font-size: 16px;
     font-family: 'Noto Sans', sans-serif;
     text-align: center;
     padding-top: 5.5rem;
     margin: 0px 10px;
-   display: none;
-    
+    display: none;
+
 }
 
 .sunset {
@@ -97,7 +95,7 @@ p {
 
 }
 
-.about-us{
+.about-us {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -106,43 +104,44 @@ p {
 
 // Servicios *************//
 
-.main-servicios{
+.main-servicios {
     height: 1000px;
 }
 
-.bullets{
+.bullets {
     font-size: 20px;
     padding: 1.5rem 0rem;
 }
-.point{
+
+.point {
     padding: 0px;
 }
 
-.father{    
-padding-top: 5.5rem;
+.father {
+    padding-top: 5.5rem;
 }
 
-.dibu{
+.dibu {
     padding-bottom: 2rem;
 }
 
 // Nuestros Trabajos ********////////
 
-.our-jobs{
-    height: 1450px;
+.our-jobs {
+    height: 1600px;
 }
 
-.papa{
+.papa {
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
 }
 
-.nostrab{
+.nostrab {
     padding-bottom: 1rem;
 }
 
-.papa img{
+.papa img {
     padding: 4rem 0rem 0rem 0rem;
 }
 
@@ -150,11 +149,11 @@ padding-top: 5.5rem;
 // Contaco ***************///
 
 
-#exampleInputEmail1{
+#exampleInputEmail1 {
     width: 260px;
 }
 
-.yes{
+.yes {
     color: white;
     font-family: 'Noto Sans', sans-serif;
     font-size: 20px;
@@ -162,25 +161,24 @@ padding-top: 5.5rem;
     padding-top: 2rem;
     margin-bottom: 2rem;
     margin-left: 1.5rem;
-  
+
 }
 
-.form-flex{
+.form-flex {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#emailHelp{
+#emailHelp {
     color: lightgray;
     font-size: 16px;
     font-family: 'Noto Sans', sans-serif;
-    
+
 }
 
-.form-check-label{
+.form-check-label {
     color: white;
     font-size: 16px;
     font-family: 'Noto Sans', sans-serif;
 }
-
