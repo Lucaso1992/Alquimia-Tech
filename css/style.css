@@ -282,10 +282,10 @@ footer {
   /* Servicios************ */
   .father {
     margin: 0px 10rem;
-    padding-top: 7rem;
+    padding-top: 2rem;
   }
   .dibu {
-    padding-bottom: 4rem;
+    padding-bottom: 1rem;
   }
   .escondidos {
     display: block;
@@ -350,7 +350,7 @@ footer {
     font-size: 18px;
   }
   .dibu {
-    padding-bottom: 6.5rem;
+    padding-bottom: 3rem;
   }
   .about-us h2 {
     font-size: 22px;
