@@ -172,6 +172,10 @@ p {
   padding-bottom: 2rem;
 }
 
+.escondidos {
+  display: none;
+}
+
 .main-works {
   height: 1600px;
 }
@@ -282,6 +286,9 @@ footer {
   }
   .dibu {
     padding-bottom: 4rem;
+  }
+  .escondidos {
+    display: block;
   }
 }
 @media (min-width: 1024px) {
