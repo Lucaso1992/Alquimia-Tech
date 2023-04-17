@@ -11,18 +11,18 @@ header {
         #toggle {
             display: none;
         }
-        
+
         #toggle:checked~.menu {
 
             height: 100%;
-        
+
         }
 
-        label{
+        label {
             display: inline-flex;
 
             color: white;
-        
+
             cursor: pointer;
 
             img {
@@ -32,34 +32,44 @@ header {
             }
         }
 
-        .menu{
+        .menu {
             width: 100%;
 
             height: 0;
-        
+
             overflow: hidden;
-            ul{
+
+            ul {
                 flex-direction: column;
 
                 padding: 0.5rem 0;
             }
         }
-        }
+    }
 
+
+}
+
+.navbar {
+    list-style: none;
+
+    li {
+        padding: 10px;
 
     }
 
-    .navbar {
-        list-style: none;
-
-        li {
-            padding: 10px;
-
-            a {
-                color: #F5E9CF;
-                text-decoration: none;
-                font-size: 16px;
-                font-family: 'Noto Sans', sans-serif;
-            }
-        }
+    a {
+        color: #F5E9CF;
+        text-decoration: none;
+        font-size: 16px;
+        font-family: 'Noto Sans', sans-serif;
     }
+}
+
+
+li a:hover {
+    color: black;
+    font-size: 17px;
+    font-family: 'Noto Sans', sans-serif;
+    
+}

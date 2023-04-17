@@ -49,10 +49,16 @@ header nav .menu ul {
 .navbar li {
   padding: 10px;
 }
-.navbar li a {
+.navbar a {
   color: #F5E9CF;
   text-decoration: none;
   font-size: 16px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+li a:hover {
+  color: black;
+  font-size: 17px;
   font-family: "Noto Sans", sans-serif;
 }
 
@@ -259,7 +265,7 @@ footer {
   /* Servicios************ */
   .father {
     margin: 0px 10rem;
-    padding-top: 10rem;
+    padding-top: 7rem;
   }
   .dibu {
     padding-bottom: 4rem;
