@@ -226,6 +226,13 @@ p {
   font-family: "Noto Sans", sans-serif;
 }
 
+.form-inp {
+  margin: 0;
+  padding: 0;
+  padding-top: 1rem;
+  padding-bottom: 0.5em;
+}
+
 Transformaciones**** .sombra {
   background-color: gray;
   border-radius: 50%;
