@@ -61,7 +61,7 @@
 
     .laimagen-de{
         font-size: 20px;
-        margin: 0 340px;
+        margin: 0 250px;
     }
 
     // Sobre Nosotros********/////
@@ -92,11 +92,19 @@
 
 
 
-    // Servicios******///
 
- .father{
+//  Nuestros trabajos ****//
 
- }
+
+.main-works{
+    height: 100vh;
+}
+
+.hijo1{
+    display: flex;
+    flex-direction: row;
+    gap: 8rem;
+}
 
 
 }

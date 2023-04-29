@@ -177,7 +177,7 @@ p {
 }
 
 .main-works {
-  height: 1600px;
+  height: 1500px;
 }
 
 .papa {
@@ -343,7 +343,7 @@ footer {
   }
   .laimagen-de {
     font-size: 20px;
-    margin: 0 340px;
+    margin: 0 250px;
   }
   .main-sobrenos {
     height: 780px;
@@ -363,6 +363,14 @@ footer {
   }
   .about-us h2 {
     font-size: 22px;
+  }
+  .main-works {
+    height: 100vh;
+  }
+  .hijo1 {
+    display: flex;
+    flex-direction: row;
+    gap: 8rem;
   }
 }
 
