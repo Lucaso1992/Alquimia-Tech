@@ -99,7 +99,7 @@ h1 {
   font-family: "Noto Sans", sans-serif;
   text-align: center;
   padding-top: 4rem;
-  margin: 0px 10px;
+  margin: 0px 20px;
 }
 
 .solicita-presu {
@@ -343,18 +343,18 @@ footer {
   }
   .laimagen-de {
     font-size: 20px;
-    margin: 0 200px;
+    margin: 0 340px;
   }
   .main-sobrenos {
     height: 780px;
   }
   .nos-impli {
     display: block;
-    margin: 0px 150px;
+    margin: 0px 350px;
     font-size: 18px;
   }
   .sobre-nos {
-    margin: 0px 10px;
+    margin: 0px 350px;
     font-size: 18px;
   }
   .dibu {
@@ -362,6 +362,13 @@ footer {
   }
   .about-us h2 {
     font-size: 22px;
+  }
+  .sunset {
+    width: 320px;
+    height: 400px;
+  }
+  .father {
+    margin: 0 600px;
   }
 }
 
